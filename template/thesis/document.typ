@@ -3,7 +3,7 @@
 #show: vilniustech.document.thesis.with(
   faculty: "Fundamentinių mokslų fakultetas",
   department: "Informacinių sistemų katedra",
-  student: "Vardenis Pavardenis",
+  author: "Vardenis Pavardenis",
   name: (
     lithuanian: "Dirbtinio intelekto sistema „Galvok“",
     english: "Artificial intelligence system \"Think\""

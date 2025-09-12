@@ -6,7 +6,7 @@
     university: "Vilniaus Gedimino Technikos Universitetas",
     faculty: "_______________________________ Fakultetas",
     department: "______________________________________ Katedra",
-    student: "Studento vardas, pavardė",
+    author: "Studento vardas, pavardė",
     name: (
       lithuanian: "Baigiamojo darbo (projekto) pavadinimas",
       english: "Thesis (project) name"
@@ -23,12 +23,12 @@
     university,
     faculty,
     department,
-    student,
+    author,
     name,
     type,
     study,
-    specialization,
     field,
+    specialization,
     dateline
   )
 

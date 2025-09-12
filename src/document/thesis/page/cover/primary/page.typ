@@ -2,7 +2,7 @@
   university,
   faculty,
   department,
-  student,
+  author,
   name,
   type,
   study,
@@ -17,7 +17,7 @@
   par(text(upper(faculty)))
   par(text(upper(department)))
   v(0.625fr)
-  par(text(student))
+  par(text(author))
   par("")
   par(text(upper(name.lithuanian), size: 14pt, weight: "bold"))
   par(text(upper(name.english), size: 14pt, weight: "bold"))
