@@ -1,0 +1,1 @@
+#import "document/index.typ" as document
