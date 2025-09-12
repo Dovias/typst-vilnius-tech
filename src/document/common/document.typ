@@ -1,7 +1,9 @@
 #let document(content) = {
   set text(
     font: "Times New Roman",
-    size: 12pt
+    size: 12pt,
+    lang: "lt",
+    region: "LT"
   )
 
   set par(leading: 0.75em)
