@@ -21,48 +21,48 @@
     let (width, height) = size
 
     utility.text.clip(
-      utility.text.sanitize(university),
+      university,
       (content) => par(text(upper(content), size: 14pt), leading: 1.166em, spacing: 1.166em),
       width
     )
 
     utility.text.clip(
-      utility.text.sanitize(faculty),
+      faculty,
       (content) => par(text(upper(content))),
       width
     )
 
     utility.text.clip(
-      utility.text.sanitize(department),
+      department,
       (content) => par(text(upper(content))),
       width
     )
 
-    v(0.625fr)
+    v(0.375fr)
+
     utility.text.clip(
-      utility.text.sanitize(student),
+      student,
       (content) => par(text(content)),
       width
     )
     par("")
 
     utility.text.clip(
-      utility.text.sanitize(name.lithuanian),
+      name.lithuanian,
       (content) => par(text(upper(content), size: 14pt, weight: "bold")),
       width
     )
 
     utility.text.clip(
-      utility.text.sanitize(name.english),
+      name.english,
       (content) => par(text(upper(content), size: 14pt, weight: "bold")),
       width
     )
 
-    par("", leading: 0em)
-    par("", leading: 0em)
+    par("")
 
     utility.text.clip(
-      utility.text.sanitize(type),
+      type,
       (content) => par(text(content, size: 14pt)),
       width
     )
@@ -70,17 +70,17 @@
     par("")
 
     utility.text.clip(
-      utility.text.sanitize(study),
+      study,
       (content) => par(text(content)),
       width
     )
     utility.text.clip(
-      utility.text.sanitize(specialization),
+      specialization,
       (content) => par(text(content)),
       width
     )
     utility.text.clip(
-      utility.text.sanitize(field),
+      field,
       (content) => par(text(content)),
       width
     )
@@ -88,7 +88,7 @@
     v(1fr)
 
     utility.text.clip(
-      utility.text.sanitize(dateline),
+      dateline,
       (content) => par(text(content)),
       width
     )
