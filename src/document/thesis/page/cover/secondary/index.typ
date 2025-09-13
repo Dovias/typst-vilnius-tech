@@ -1,0 +1,1 @@
+#import "../secondary/page.typ": page

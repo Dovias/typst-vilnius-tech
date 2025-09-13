@@ -13,6 +13,8 @@
   dateline,
   content
 ) = {
+  set align(center)
+
   layout(size => {
     let (width, height) = size
 

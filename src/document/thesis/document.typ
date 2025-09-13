@@ -32,5 +32,18 @@
     dateline
   )
 
+  page.cover.secondary(
+    university,
+    faculty,
+    department,
+    author,
+    name,
+    type,
+    study,
+    specialization,
+    field,
+    dateline
+  )
+
   content
 }
