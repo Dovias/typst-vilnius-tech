@@ -6,7 +6,7 @@
     region: "LT"
   )
 
-  set par(leading: 0.75em)
+  set par(leading: 1em, spacing: 1em)
 
   set page(
     margin: (

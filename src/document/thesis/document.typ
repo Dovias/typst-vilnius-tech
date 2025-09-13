@@ -27,8 +27,8 @@
     name,
     type,
     study,
-    field,
     specialization,
+    field,
     dateline
   )
 

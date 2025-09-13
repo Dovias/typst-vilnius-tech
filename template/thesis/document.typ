@@ -10,6 +10,6 @@
   ),
   study: "Programų inžinerijos studijų programa, valstybinis kodas 6121BX023",
   specialization: "Verslo valdymo sistemų specializacija",
-  field: "Informacinių technologijų kryptis"
+  field: "Informacinių technologijų studijų kryptis"
 
 )
