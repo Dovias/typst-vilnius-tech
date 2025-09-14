@@ -1,98 +1,33 @@
-#import "../../../../../utility/index.typ" as utility
+#let page(content, ..rest) = {
+  let arguments = rest.named()
 
-#let page(
-  university,
-  faculty,
-  department,
-  student,
-  name,
-  type,
-  study,
-  specialization,
-  field,
-  dateline,
-  content
-) = {
   set align(center)
 
-  layout(size => {
-    let (width, height) = size
+  par(text(upper(arguments.at("university")), size: 14pt), leading: 1.166em, spacing: 1.166em)
+  par(text(upper(arguments.at("faculty"))))
+  par(text(upper(arguments.at("department"))))
 
-    utility.text.clip(
-      university,
-      (content) => par(text(upper(content), size: 14pt), leading: 1.166em, spacing: 1.166em),
-      width
-    )
-
-    utility.text.clip(
-      faculty,
-      (content) => par(text(upper(content))),
-      width
-    )
-
-    utility.text.clip(
-      department,
-      (content) => par(text(upper(content))),
-      width
-    )
-
-    v(0.375fr)
-
-    utility.text.clip(
-      student,
-      (content) => par(text(content)),
-      width
-    )
+  for _ in range(1, 4) {
     par("")
+  }
+  par(text(arguments.at("author")))
+  par("")
+  for title in arguments.at("titles") {
+    par(text(upper(title), size: 14pt, weight: "bold"))
+  }
+  par("")
+  par(text(arguments.at("type"), size: 14pt))
+  par("")
+  par(text(arguments.at("study")))
+  par(text(arguments.at("specialization")))
+  par(text(arguments.at("field")))
 
-    utility.text.clip(
-      name.lithuanian,
-      (content) => par(text(upper(content), size: 14pt, weight: "bold")),
-      width
-    )
-
-    utility.text.clip(
-      name.english,
-      (content) => par(text(upper(content), size: 14pt, weight: "bold")),
-      width
-    )
-
+  for _ in range(1, 4) {
     par("")
-
-    utility.text.clip(
-      type,
-      (content) => par(text(content, size: 14pt)),
-      width
-    )
-
-    par("")
-
-    utility.text.clip(
-      study,
-      (content) => par(text(content)),
-      width
-    )
-    utility.text.clip(
-      specialization,
-      (content) => par(text(content)),
-      width
-    )
-    utility.text.clip(
-      field,
-      (content) => par(text(content)),
-      width
-    )
-
-    v(0.25fr)
-    content
-    v(1fr)
-
-    utility.text.clip(
-      dateline,
-      (content) => par(text(content)),
-      width
-    )
-  })
+  }
+  content
+  v(1fr)
+  par(text(arguments.at("dateline")))
 
   pagebreak()
 }

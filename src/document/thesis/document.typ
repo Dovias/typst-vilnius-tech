@@ -1,49 +1,14 @@
-#import "../common/index.typ": document as common
+#import "../common/index.typ" as common
 #import "page/index.typ" as page
 
-#let document(
-    content,
-    university: "Vilniaus Gedimino Technikos Universitetas",
-    faculty: "_______________________________ Fakultetas",
-    department: "______________________________________ Katedra",
-    author: "Studento vardas, pavardė",
-    name: (
-      lithuanian: "Baigiamojo darbo (projekto) pavadinimas",
-      english: "Thesis (project) name"
-    ),
-    type: "Baigiamasis bakalauro darbas (projektas)",
-    study: "______________ studijų programa, valstybinis kodas _____________",
-    field: "________________ specializacija",
-    specialization: "_________________ studijų kryptis",
-    dateline: "Vilnius, " + str(datetime.today().year())
-) = {
-  show: common
+#let document(content, ..rest) = {
+  show: common.document
 
-  page.cover.primary(
-    university,
-    faculty,
-    department,
-    author,
-    name,
-    type,
-    study,
-    specialization,
-    field,
-    dateline
-  )
+  let arguments = rest.named()
+  let cover = arguments.at("cover")
 
-  page.cover.secondary(
-    university,
-    faculty,
-    department,
-    author,
-    name,
-    type,
-    study,
-    specialization,
-    field,
-    dateline
-  )
+  page.cover.primary(..cover.at("primary"))
+  page.cover.secondary(..cover.at("secondary"))
 
   content
 }
