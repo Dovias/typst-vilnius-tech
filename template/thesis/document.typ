@@ -14,14 +14,13 @@
   specialization: "Verslo valdymo sistemų specializacija",
   field: "Programų sistemų studijų kryptis",
   contributors: (
-    (role: "Vadovas", field: (caption: "(Pedag. vardas, vardas, pavardė)", value: "")),
-    (role: "Konsultantas", field: (caption: "(Pedag. vardas, vardas, pavardė)", value: "")),
-    (role: "Konsultantas", field: (caption: "(Pedag. vardas, vardas, pavardė)", value: ""))
+    (role: "Vadovas", field: (caption: "(Pedag. vardas, vardas, pavardė)")),
+    (role: "Konsultantas", field: (caption: "(Pedag. vardas, vardas, pavardė)")),
+    (role: "Konsultantas", field: (caption: "(Pedag. vardas, vardas, pavardė)"))
   ),
   dateline: "Vilnius, 2025"
 )
 
-#vilniustech.document.thesis.
 #show: vilniustech.document.thesis.with(
   cover: (
     primary: cover,

@@ -34,7 +34,8 @@
               set par(spacing: 0.6em)
 
               let spacer = 0.666em
-              let (value, caption) = field
+              let value = field.at("value", default: "")
+              let caption = field.at("caption")
 
               par(style(role) + h(spacer) + box(
                 input(value),
