@@ -28,6 +28,4 @@
   content
   v(1fr)
   par(text(arguments.at("dateline")))
-
-  pagebreak()
 }

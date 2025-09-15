@@ -1,4 +1,4 @@
-#let document(content) = {
+#let body(content) = {
   set text(
     font: "Times New Roman",
     size: 12pt,

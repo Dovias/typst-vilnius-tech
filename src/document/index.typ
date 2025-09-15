@@ -1,1 +1,2 @@
-#import "thesis/index.typ": document as thesis
+#import "body.typ": body
+#import "content/index.typ" as content

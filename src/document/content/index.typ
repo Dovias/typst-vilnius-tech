@@ -1,0 +1,1 @@
+#import "thesis/index.typ" as thesis
