@@ -1,12 +1,8 @@
-#let body(content) = {
-  set text(
-    font: "Times New Roman",
-    size: 12pt,
-    lang: "lt",
-    region: "LT"
-  )
+#import "typography/index.typ" as typography
 
-  set par(leading: 1em, spacing: 1em)
+#let body(content) = {
+  show: typography.font
+  show: typography.paragraph
 
   set page(
     margin: (

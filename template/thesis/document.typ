@@ -26,22 +26,22 @@
 #vilniustech.document.content.thesis.cover.primary(..cover)
 #pagebreak()
 #vilniustech.document.content.thesis.cover.secondary(..cover)
+#pagebreak()
 
-/* TODO: Implement:
 = Turinys
-#vilniustech.document.content.table_of_contents()
+//#vilniustech.document.content.table_of_contents()
 #pagebreak()
 
 = Paveikslų sąrašas
-#vilniustech.document.content.list_of_figures()
+//#vilniustech.document.content.list_of_figures()
 #pagebreak()
 
 = Lentelių sąrašas
-#vilniustech.document.content.list_of_tables()
+//#vilniustech.document.content.list_of_tables()
 #pagebreak()
 
 = Priedų sąrašas
-#vilniustech.document.content.list_of_attachments()
+//#vilniustech.document.content.list_of_attachments()
 #pagebreak()
 
 == Įvadas
@@ -56,9 +56,8 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 ===== Skyrelio pavadinimas
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
+#pagebreak()
 == Literatūros sąrašas
-#vilniustech.document.bibliography()
-
+//#vilniustech.document.content.bibliography()
+#pagebreak()
 = Priedai
-...
-*/
