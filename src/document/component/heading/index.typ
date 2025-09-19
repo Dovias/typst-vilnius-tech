@@ -1,0 +1,1 @@
+#import "_headings.typ": _headings as headings

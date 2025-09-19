@@ -1,1 +1,1 @@
-#import "document/index.typ" as document
+#import "document/index.typ": *

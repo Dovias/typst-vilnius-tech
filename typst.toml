@@ -26,7 +26,7 @@ exclude = [
 
 [template]
 path = "template"
-entrypoint = "index.typ"
+entrypoint = "document.typ"
 thumbnail = "thumbnail.png"
 
 # [tool.mytool]

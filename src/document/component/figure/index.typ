@@ -1,0 +1,1 @@
+#import "_figure.typ": _figure as figure

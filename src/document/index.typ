@@ -1,2 +1,2 @@
-#import "body.typ": body
-#import "content/index.typ" as content
+#import "base/index.typ": base as document
+#import "component/index.typ": *
