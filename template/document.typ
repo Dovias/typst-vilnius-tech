@@ -68,6 +68,24 @@ Tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas 
 ===== Skyrelio pavadinimas
 Tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas.
 =====================================
+=== Metodologija
+==== Poskyrio pavadinimas
+Tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas.
+
+Visos formulės turi būti sudaromos per "Typst" matematinius kodo blokus (žr. https://typst.app/docs/reference/math/). Formulės yra automatiškai numeruojamos. @formula
+$ ln P(Y = 1)/P(Y = 0) = a_0 = a_1 x_1 + ... + a_n x_n, $ <formula>
+#body[
+  čia:
+  \ $Y$ - priklausomas kintamasis;
+  \ $Y = 1$ - kontrolinė kategorija;
+  \ $Y = 0$ - kontrolinė kategorija;
+  \ $a_0$ - pastovus dydis (konstanta);
+  \ $a_1, a_2, ..., a_n$ - nepriklausomojo kintamojo koeficientas;
+  \ $x_1, x_2, ..., x_n$ - nepriklausomi kintamieji.
+]
+
+=====================================
+
 
 == Išvados
 + Tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas Tekstas ext tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas ext tekstas tekstas tekstas tekstas tekstas tekstas tekstas.

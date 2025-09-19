@@ -16,32 +16,45 @@
       return pagebreak()
     }
     
-    let level = it.level
+    let (body, level, ..arguments) = it.fields()
     if (level == 1) {
       set align(center)
       set text(size: 0.8em)
+      body = upper(body)
 
-      block(upper(it.body), spacing: 2.5em)
+      block(body, spacing: 2.5em)
     } else if (level == 2) {
-      let (body, ..arguments) = it.fields()
-
       set text(size: 0.7em)
-      block(heading(upper(body), ..arguments, numbering: none, level: 1, outlined: true), spacing: 2.75em)
+      body = upper(body)
+
+      block(
+        heading(body, ..arguments, numbering: none, level: 1, outlined: true),
+        spacing: 2.75em
+      )
     } else if (level == 3) {
-      let (body, ..arguments) = it.fields()
-      
       set text(size: 0.85em)
-      block(heading(counter(heading).display() + " " + upper(it.body), ..arguments, numbering: none, level: 1, outlined: true), spacing: 2.75em)
+      body = counter(heading).display() + " " + upper(body)
+
+      block(
+        heading(body, ..arguments, numbering: none, level: 1, outlined: true),
+        spacing: 2.75em
+      )
     } else if (level == 4) {
-      let (body, ..arguments) = it.fields()
-      
       set text(size: 1em)
-      block(heading(counter(heading).display() + " " + it.body, ..arguments, numbering: none, level: 2, outlined: true), spacing: 2.4em)
+      body = counter(heading).display() + " " + body
+
+      block(
+        heading(body, ..arguments, numbering: none, level: 2, outlined: true),
+        spacing: 2.4em
+      )
     } else if (level >= 5) {
-      let (body, ..arguments) = it.fields()
-      
       set text(size: 1.083em)
-      block(heading(text(counter(heading).display() + " " + it.body, style: "italic", weight: "regular"), ..arguments, numbering: none, level: 3, outlined: true), spacing: 1.666em)
+      body = counter(heading).display() + " " + body
+
+      block(
+        heading(text(body, style: "italic", weight: "regular"), ..arguments, numbering: none, level: 3, outlined: true),
+        spacing: 1.666em
+      )
     }
   }
   

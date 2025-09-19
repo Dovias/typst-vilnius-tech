@@ -6,6 +6,7 @@
 #import "enum/index.typ": enum
 #import "table/index.typ": table
 #import "figure/index.typ": figure
+#import "math/index.typ": math
 #import "outline/index.typ": outline
 
 
@@ -18,6 +19,7 @@
   show: enum
   show: table
   show: figure
+  show: math
   show: outline
 
   show "-": "–"
