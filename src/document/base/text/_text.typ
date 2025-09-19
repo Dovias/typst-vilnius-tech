@@ -1,6 +1,8 @@
+#import "../../configuration/index.typ": font
+
 #let _text(body) = {
   set text(
-    font: "Times New Roman",
+    font: font.text,
     size: 12pt,
     lang: "lt",
     region: "LT"
