@@ -72,7 +72,7 @@ Tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas 
 ==== Poskyrio pavadinimas
 Tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas.
 
-Visos formulės turi būti sudaromos per "Typst" matematinius kodo blokus (žr. https://typst.app/docs/reference/math/). Formulės yra automatiškai numeruojamos. @formula
+Visos formulės turi būti sudaromos per "Typst" matematinius kodo blokus (žr. https://typst.app/docs/reference/math/). @formula formulės pavyzdys bei kitos formulės yra automatiškai numeruojamos, išskyrus prieduose esančias formules.
 $ ln P(Y = 1)/P(Y = 0) = a_0 = a_1 x_1 + ... + a_n x_n, $ <formula>
 #body[
   čia:
