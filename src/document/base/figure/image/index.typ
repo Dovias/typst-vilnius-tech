@@ -1,1 +1,0 @@
-#import "_image.typ": _image as image
