@@ -3,10 +3,7 @@
 
   block(
     {
-      figure(
-      body,
-      ..rest
-      )
+      figure(body, ..rest)
       set par(first-line-indent: 0em)
       text("Šaltinis: " + source, size: 0.916em)
     },
