@@ -43,5 +43,7 @@
     }
   )
 
+  show enum: set par(justify: true)
+
   body
 }
