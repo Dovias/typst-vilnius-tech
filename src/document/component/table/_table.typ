@@ -1,16 +1,12 @@
-#let _table(caption: none, reference: "Sudaryta autoriaus", ..rest) = {
-  block(
-    {
-      let arguments = ()
-      if (caption != none) {
-        arguments.push(caption)
-      }
+#import "../figure/index.typ": figure
 
-      figure(table(..rest), ..arguments)
-      set par(first-line-indent: 0em)
-      text("Šaltinis: " + reference, size: 0.833em)
-    },
-    spacing: 2em
-  )
-
+#let _table(caption: none, reference: none, ..rest) = {
+  let arguments = (:)
+  if (caption != none) {
+    arguments.insert("caption", caption)
+  }
+  if (reference != none) {
+    arguments.insert("reference", reference)
+  }
+  figure(table(..rest), ..arguments)
 }
