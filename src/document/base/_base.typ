@@ -8,7 +8,6 @@
 #import "figure/index.typ": figure
 #import "math/index.typ": math
 #import "reference/index.typ": reference
-#import "outline/index.typ": outline
 
 #let _base(body) = {
   show: page
@@ -21,7 +20,6 @@
   show: figure
   show: math
   show: reference
-  show: outline
 
   show "-": "–"
 
