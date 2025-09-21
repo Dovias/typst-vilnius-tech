@@ -1,15 +1,16 @@
 #let _reference(body) = {
-  show ref: it => {
-    let equation = math.equation
+  show ref.where: it => {
     let element = it.element
-    if element != none and (element.func() == equation or element.func() == image) {
-      link(
-        element.location(),
-        numbering(element.numbering, ..counter(equation).at(element.location()))
-      )
-    } else [
-      #link(element.location())[(#numbering(element.numbering, ..counter(element.func()).at(element.location())))]
-    ]
+    if (element == none) {
+      return
+    }
+    
+    let kind = element.func()
+    if (kind == equation) {
+      link(element.location())[#numbering(element.numbering, ..counter(equation).at(element.location()))]
+    } else {
+      link(element.location())[(#numbering(element.numbering, ..element.counter.at(element.location())))]
+    }
       
   }
 
