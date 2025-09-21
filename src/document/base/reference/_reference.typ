@@ -1,17 +1,17 @@
 #let _reference(body) = {
-  show ref.where: it => {
+  show ref: it => {
     let element = it.element
     if (element == none) {
-      return
+      return it
     }
     
     let kind = element.func()
+    let equation = math.equation
     if (kind == equation) {
       link(element.location())[#numbering(element.numbering, ..counter(equation).at(element.location()))]
-    } else {
-      link(element.location())[(#numbering(element.numbering, ..element.counter.at(element.location())))]
-    }
-      
+    } else [
+      (#it)
+    ]
   }
 
   body

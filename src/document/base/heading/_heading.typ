@@ -37,11 +37,13 @@
 
   show outline.entry: set block(spacing: 0.5em)
   show outline.entry.where(level: 1): set block(spacing: 1em)
-  show outline.entry.where(level: 3): set text(style: "italic")
   show outline.entry.where(level: 1): it => if (it.element.func() == heading) {
     link(it.element.location(), it.indented(it.prefix(), upper(it.inner())))
   } else {
     it
   }
+
+  show outline.entry.where(level: 3): set text(style: "italic")
+
   body
 }
