@@ -1,4 +1,5 @@
 #let _reference(body) = {
+  show ref: set ref(supplement: none)
   show ref: it => {
     let element = it.element
     if (element == none) {

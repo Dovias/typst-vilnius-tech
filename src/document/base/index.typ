@@ -1,1 +1,1 @@
-#import "_base.typ": _base as base
+#import "_base.typ": _base as base, attachment

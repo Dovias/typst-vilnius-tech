@@ -1,1 +1,1 @@
-#import "_figure.typ": _figure as figure
+#import "figure.typ": figure, attachment

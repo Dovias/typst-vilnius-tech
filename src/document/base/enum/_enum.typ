@@ -31,7 +31,7 @@
               current_position.page == last_paragraph_position.page and
               current_position.y    == last_paragraph_position_y_end
             ) { 
-              pad(prefix, left: par.first-line-indent.amount)
+              pad(prefix, left: par.first-line-indent.amount * 1.6)
             } else {
               prefix
             }
