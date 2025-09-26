@@ -7,6 +7,7 @@
 #import "table.typ": table
 #import "figure.typ": figure, attachment
 #import "math.typ": math
+#import "outline.typ": outline
 #import "reference.typ": reference
 #import "bibliography.typ": bibliography
 
@@ -20,6 +21,7 @@
   show: table
   show: figure
   show: math
+  show: outline
   show: reference
   show: bibliography
 

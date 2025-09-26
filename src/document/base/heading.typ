@@ -35,18 +35,5 @@
   show std.heading.where(level: 5): set text(1em)
   show std.heading.where(level: 5): set std.heading(level: 3, outlined: true)
 
-  set outline(title: none, indent: (level) => level * 1.2em)
-  set outline.entry(fill: repeat(".", gap: 0em))
-
-  show outline.entry: set block(spacing: 0.5em)
-  show outline.entry.where(level: 1): set block(spacing: 1em)
-  show outline.entry.where(level: 1): it => if (it.element.func() == heading) {
-    link(it.element.location(), it.indented(it.prefix(), upper(it.inner())))
-  } else {
-    it
-  }
-
-  show outline.entry.where(level: 3): set text(style: "italic")
-
   body
 }
