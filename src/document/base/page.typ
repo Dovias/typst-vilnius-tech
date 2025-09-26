@@ -1,5 +1,5 @@
-#let _page(body) = {
-  set page(
+#let page(body) = {
+  set std.page(
     margin: (
       top: 2cm,
       right: 2cm,

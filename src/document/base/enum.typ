@@ -1,7 +1,7 @@
-#let _enum(body) = {
+#let enum(body) = {
   // Very big hack of enum numbering function to support list indentation after paragraphs or consecutive lists:
   // Ugly? Yes. Still better than MS Word's list indentation though :D
-  set enum(
+  set std.enum(
     full: true,
     numbering: (..rest) => {
       let numbers = rest.pos()
@@ -43,7 +43,7 @@
     }
   )
 
-  show enum: set par(justify: true)
+  show std.enum: set par(justify: true)
 
   body
 }

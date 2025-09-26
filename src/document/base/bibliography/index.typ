@@ -1,1 +1,0 @@
-#import "_bibliography.typ": _bibliography as bibliography

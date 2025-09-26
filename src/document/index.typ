@@ -1,2 +1,2 @@
-#import "base/index.typ": base as document, attachment
+#import "base/index.typ": index as document, attachment
 #import "component/index.typ": *

@@ -1,1 +1,0 @@
-#import "table.typ": _table as table

@@ -1,5 +1,5 @@
-#let _list(body) = {
-  show list: it => {
+#let list(body) = {
+  show std.list: it => {
     // Simulate lists under enums because list
     // marker function is lacking information for
     // hierarchical indentation support:

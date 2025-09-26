@@ -1,4 +1,4 @@
-#let _paragraph(body) = {
+#let paragraph(body) = {
   set par(
     leading: 1em,
     spacing: 1em,

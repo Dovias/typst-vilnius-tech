@@ -1,4 +1,4 @@
-#let _reference(body) = {
+#let reference(body) = {
   show ref: set ref(supplement: none)
   show ref: it => {
     let element = it.element

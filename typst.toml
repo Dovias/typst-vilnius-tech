@@ -1,18 +1,15 @@
-# for a description of available keys, see https://github.com/typst/packages/?tab=readme-ov-file#package-format
-
 [package]
 name = "vilnius-tech"
 version = "0.1.0"
 entrypoint = "src/index.typ"
-authors = ["Dovias"]
+authors = [ "Dovias" ]
 license = "Unlicense"
 description = ""
 homepage = ""
 repository = ""
-keywords = []
-categories = []
-disciplines = []
-# compiler = ""
+keywords = [ ]
+categories = [ ]
+disciplines = [ ]
 exclude = [
   ".github",
   "docs",
@@ -21,13 +18,11 @@ exclude = [
   ".typstignore",
   "Justfile",
   "thumbnail-dark.svg",
-  "thumbnail-light.svg",
+  "thumbnail-light.svg"
 ]
+compiler = "0.13.1"
 
 [template]
 path = "template"
 entrypoint = "document.typ"
-thumbnail = "thumbnail.png"
-
-# [tool.mytool]
-# foo = "bar"
+thumbnail = ""
