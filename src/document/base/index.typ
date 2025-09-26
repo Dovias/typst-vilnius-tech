@@ -1,9 +1,8 @@
 #import "page.typ": page
 #import "text.typ": text
 #import "paragraph.typ": paragraph
-#import "heading.typ": heading
+#import "heading.typ": _heading as heading
 #import "list.typ": list
-#import "enum.typ": enum
 #import "image.typ": image
 #import "table.typ": table
 #import "figure.typ": figure, attachment
@@ -17,7 +16,6 @@
   show: paragraph
   show: heading
   show: list
-  show: enum
   show: image
   show: table
   show: figure
