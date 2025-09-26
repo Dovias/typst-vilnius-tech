@@ -1,12 +1,11 @@
 [package]
 name = "vilnius-tech"
-version = "0.1.0"
+version = "0.0.1"
 entrypoint = "src/index.typ"
 authors = [ "Dovias" ]
 license = "Unlicense"
-description = ""
-homepage = ""
-repository = ""
+description = "Vilnius TECH (Vilnius Gediminas Technical University) academic paper template modeled after the formatting guidelines for the university students."
+repository = "https://github.com/Dovias/typst-vilnius-tech"
 keywords = [ ]
 categories = [ ]
 disciplines = [ ]

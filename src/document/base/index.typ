@@ -1,7 +1,7 @@
 #import "page.typ": page
 #import "text.typ": text
 #import "paragraph.typ": paragraph
-#import "heading.typ": _heading as heading
+#import "heading.typ": heading
 #import "list.typ": list
 #import "image.typ": image
 #import "table.typ": table
