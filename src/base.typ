@@ -2,7 +2,7 @@
 #import "base/pagebreak.typ": pagebreak
 #import "base/text.typ": text
 #import "base/paragraph.typ": paragraph
-#import "base/heading.typ" as heading
+#import "base/heading.typ": content as heading
 #import "base/list.typ": list
 #import "base/image.typ": image
 #import "base/table.typ": table
@@ -17,7 +17,7 @@
   show: pagebreak
   show: text
   show: paragraph
-  show: heading.content
+  show: heading
   show: list
   show: image
   show: table
