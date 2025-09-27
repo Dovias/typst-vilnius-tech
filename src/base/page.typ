@@ -6,7 +6,8 @@
       bottom: 2cm,
       left: 3cm
     ),
-    numbering: "1"
+    numbering: "1",
+    footer-descent: 18%
   )
 
   body

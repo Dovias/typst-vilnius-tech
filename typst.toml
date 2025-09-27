@@ -1,7 +1,7 @@
 [package]
 name = "vilnius-tech"
-version = "0.0.1"
-entrypoint = "src/index.typ"
+version = "0.0.2"
+entrypoint = "src/package.typ"
 authors = [ "Dovias" ]
 license = "Unlicense"
 description = "Vilnius TECH (Vilnius Gediminas Technical University) academic paper template modeled after the formatting guidelines for the university students."

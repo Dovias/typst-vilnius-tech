@@ -34,27 +34,5 @@
     text(size: 0.832em)[Šaltinis: #it.supplement]
   }]
 
-  show outline.entry: it => {
-    let element = it.element
-    let element_numbering = element.numbering
-    if (element_numbering == none) {
-      return it
-    }
-    if (element.func() != std.figure) {
-      return it
-    }
-    
-    let location = element.location()
-    link(
-      location,
-      it.indented(
-        numbering(
-          element_numbering,
-          ..element.counter.at(location)
-        ),
-        it.inner()
-      )
-    )
-  }
   body
 }

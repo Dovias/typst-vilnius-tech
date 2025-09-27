@@ -1,4 +1,4 @@
-#let _body(body) = {
+#let body(body) = {
   set par(first-line-indent: 0em)
   body
 }

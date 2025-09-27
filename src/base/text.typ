@@ -1,6 +1,6 @@
 #let text(body) = {
   set std.text(
-    font: "STIX Two Text",
+    font: "Times New Roman",
     size: 12pt,
     lang: "lt",
     region: "LT"

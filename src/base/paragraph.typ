@@ -1,7 +1,7 @@
 #let paragraph(body) = {
   set par(
-    leading: 1em,
-    spacing: 1em,
+    leading: 1.0526em,
+    spacing: 1.0526em,
     first-line-indent: (
       amount: 3em,
       all: true
