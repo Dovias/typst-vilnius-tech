@@ -17,10 +17,9 @@
 *Tyrimo tikslas -*
 
 *Uždaviniai tikslui pasiekti:*
-
-+	Uždavinys;
-+	Uždavinys;
-+	Uždavinys.
++ Uždavinys;
++ Uždavinys;
++ Uždavinys
 
 *Tyrimo metodai.* 
 
@@ -141,7 +140,6 @@ Tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas 
 
 #attachments(
   (
-    caption: "This is a caption",
     body: table(
       columns: (1fr, 1fr, 1fr, 1fr, 1fr, 1fr),
       table.header(
@@ -153,8 +151,7 @@ Tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas 
       [Tekstas], [Tekstas], [Tekstas], [Tekstas], [Tekstas], [Tekstas],
       [Tekstas], [Tekstas], [Tekstas], [Tekstas], [Tekstas], [Tekstas],
       [Tekstas], [Tekstas], [Tekstas], [Tekstas], [Tekstas], [Tekstas]
-    ),
-    label: "This is a label"
+    )
   ),
   (
     body: image("asset/line_chart.png", height: 9.33cm)

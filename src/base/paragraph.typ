@@ -8,13 +8,7 @@
     )
   )
 
-  show par: it => {
-    if (it.justify == true) {
-      return it
-    }
-    
-    [#par(it.body, justify: true) <paragraph>]
-  }
+  show par: it => [#it #metadata(it) <paragraph>]
   
   body
 }
