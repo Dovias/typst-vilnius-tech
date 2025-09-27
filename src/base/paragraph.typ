@@ -5,7 +5,8 @@
     first-line-indent: (
       amount: 3em,
       all: true
-    )
+    ),
+    justify: true
   )
 
   show par: it => [#it #metadata(it) <paragraph>]
