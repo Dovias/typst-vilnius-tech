@@ -1,4 +1,4 @@
-#import "@local/vilnius-tech:0.0.2": *
+#import "@local/vilnius-tech:0.0.3": *
 
 #show: document
 
