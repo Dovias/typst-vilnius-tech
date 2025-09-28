@@ -5,7 +5,7 @@
   let options = rest.named()
   
   show: base
-  show: outlines.with(..options.at("outline", default: ()))
+  show: outlines.with(..options.at("outlines", default: ()))
   
   body
 }
