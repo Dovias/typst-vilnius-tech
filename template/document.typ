@@ -154,7 +154,5 @@ Tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas 
     ),
     label: "attachment"
   ),
-  (
-    body: image("asset/line_chart.png", height: 9.33cm)
-  )
+
 )

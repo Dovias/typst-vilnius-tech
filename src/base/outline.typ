@@ -6,9 +6,11 @@
   set std.outline.entry(fill: repeat([․], gap: 0.025em))
 
   show std.outline: outline => {
+    // Do not display outline contents if it doesn't have any entries:
+    if query(outline.target) == () { return }
+    
     // Heading outline has smaller spacing than other outlines. Why? dont ask me :)
     show: heading.supplemental.with(spacing: if (outline.target == selector(std.heading)) {2em})
-    
     [#pagebreak() #outline #pagebreak()]
   }
 
@@ -27,20 +29,20 @@
     let numbering = element.numbering
     let spacing = 0.468em
     // Different outline types have differing spacing:
-    if (element.func() == std.heading) {
+    if element.func() == std.heading {
       if (it.level == 1) {
         body = [#upper(body) ]
         spacing = 0.9375em
       }
 
-      if (numbering != none) {
+      if numbering != none {
         prefix = [#std.numbering(numbering, ..counter(std.heading).at(location)) ]
       }
     } else {
       body = [#body ]
       spacing = 1.0625em
       
-      if (numbering != none) {
+      if numbering != none {
         prefix = [#std.numbering(numbering, ..element.counter.at(location)) ]
       }
     }
