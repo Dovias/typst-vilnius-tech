@@ -1,2 +1,2 @@
 #import "component/body.typ": body
-#import "component/attachments.typ": attachment, attachments
+#import "component/attachments.typ": attachments
