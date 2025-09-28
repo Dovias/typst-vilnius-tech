@@ -1,6 +1,28 @@
-#import "@local/vilnius-tech:0.0.6": *
+#import "@local/vilnius-tech:0.0.7": *
 
-#show: document
+#show: document.with(
+  attachments: (
+    entries: (
+      (
+        content: table(
+          columns: (1fr, 1fr, 1fr, 1fr, 1fr, 1fr),
+          table.header(
+            table.cell(colspan: 6, align: horizon + center)[*Tekstas*],
+            table.cell(colspan: 3, align: horizon + center)[*Tekstas*],
+            table.cell(colspan: 3, align: horizon + center)[*Tekstas*],
+          ),
+          [Tekstas], [Tekstas], [Tekstas], [Tekstas], [Tekstas], [Tekstas],
+          [Tekstas], [Tekstas], [Tekstas], [Tekstas], [Tekstas], [Tekstas],
+          [Tekstas], [Tekstas], [Tekstas], [Tekstas], [Tekstas], [Tekstas],
+          [Tekstas], [Tekstas], [Tekstas], [Tekstas], [Tekstas], [Tekstas]
+        )
+      ),
+      (
+        content: image("asset/line_chart.png", height: 9.33cm)
+      )
+    )
+  )
+)
 
 = Įvadas
 *Tyrimo aktualumas.* Tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas.
@@ -87,7 +109,7 @@ Tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas 
 
 == Empirinis tyrimas
 === Poskyrio pavadinimas
-Tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas @attachment tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas. #ref(<table>, form: "page")
+Tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas. #ref(<table>, form: "page")
 
 #figure(
   block(
@@ -132,22 +154,3 @@ Tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas 
 + Tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas tekstas.
 
 #bibliography("sources.bib")
-
-#attachments(
-  (
-    body: table(
-      columns: (1fr, 1fr, 1fr, 1fr, 1fr, 1fr),
-      table.header(
-        table.cell(colspan: 6, align: horizon + center)[*Tekstas*],
-        table.cell(colspan: 3, align: horizon + center)[*Tekstas*],
-        table.cell(colspan: 3, align: horizon + center)[*Tekstas*],
-      ),
-      [Tekstas], [Tekstas], [Tekstas], [Tekstas], [Tekstas], [Tekstas],
-      [Tekstas], [Tekstas], [Tekstas], [Tekstas], [Tekstas], [Tekstas],
-      [Tekstas], [Tekstas], [Tekstas], [Tekstas], [Tekstas], [Tekstas],
-      [Tekstas], [Tekstas], [Tekstas], [Tekstas], [Tekstas], [Tekstas]
-    ),
-    label: "attachment"
-  ),
-
-)

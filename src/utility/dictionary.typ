@@ -26,4 +26,12 @@
   return to
 }
 
+
+#let array(value) = {
+  if type(value) == dictionary {
+    (value,)
+  } else {
+    value
+  }
+}
  
