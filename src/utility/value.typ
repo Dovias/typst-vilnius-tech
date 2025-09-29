@@ -1,0 +1,1 @@
+#let map(value, callback) => callback(value)

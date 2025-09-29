@@ -1,0 +1,50 @@
+manners:
+  type: article
+  title: The End of a Noble Narrative? European Integration Narratives after the Nobel Peace Prize
+  author:
+  - Manners, Ian
+  - Murray, Philomena
+  date: 2016
+  page-range: 185-202
+  url: https://doi.org/10.1111/jcms.12324
+  serial-number:
+    doi: 10.1111/jcms.12324
+  parent:
+    type: periodical
+    title: 'JCMS: Journal of Common Market Studies'
+    publisher: Wiley
+    issue: 1
+    volume: 54
+salimon:
+  type: article
+  title: The mediating role of hedonic motivation on the relationship between adoption of e-banking and its determinants
+  author:
+  - Salimon, Mohammed G.
+  - Yusoff, Rushami Zien Bin
+  - Mohd Mokhtar, Siti Sarah
+  date: 2017
+  page-range: 558-582
+  url: https://doi.org/10.1108/IJBM-05-2016-0060
+  serial-number:
+    doi: 10.1108/IJBM-05-2016-0060
+  parent:
+    type: periodical
+    title: International Journal of Bank Marketing
+    publisher: Emerald
+    issue: 4
+    volume: 35
+sun:
+  type: article
+  title: Research on the influencing factors of reverse logistics carbon footprint under sustainable development
+  author: Sun, Qiuhong
+  date: 2017
+  page-range: 22790-22798
+  url: https://doi.org/10.1007/s11356-016-8140-9
+  serial-number:
+    doi: 10.1007/s11356-016-8140-9
+  parent:
+    type: periodical
+    title: Environmental Science and Pollution Research
+    publisher: Springer
+    issue: 29
+    volume: 24
